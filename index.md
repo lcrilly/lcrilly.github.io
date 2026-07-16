@@ -10,9 +10,9 @@ layout: home
 
 We are a non-profit, community pre-school, feeding several local primary schools
 
-* [Steeple Morden Church of England Primary School](https://www.steeplemorden.cambs.sch.uk/)
 * [Bassingbourn Community Primary School](https://www.bassingbourn.cambs.sch.uk/)
-* [Tannery Drift First School](https://www.tannerydrift.herts.sch.uk/)
+* [Royston Tannery Drift First School](https://www.tannerydrift.herts.sch.uk/)
+* [Steeple Morden Church of England Primary School](https://www.steeplemorden.cambs.sch.uk/)
 
 ## Ethos
 
