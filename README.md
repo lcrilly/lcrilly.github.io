@@ -1,5 +1,8 @@
 # Litlington Pre-school website
 
+![logo light](assets/img/lps_logo_2026_light.png#gh-light-mode-only)
+![logo dark](assets/img/lps_logo_2026_light.png#gh-dark-mode-only)
+
 This is the source of the Litlington Pre-school website hosted at [www.litlingtonpreschool.net](https://www.litlingtonpreschool.net/).
 
 **The stack**
