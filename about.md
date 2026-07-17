@@ -14,24 +14,43 @@ We have good communications with local community groups and local schools in the
 
 We welcome children from 2 years old until they start Primary School.
 
-## Staff
+## Daily Routine
 
-Our staff are all qualified in the relevant Early Years qualifications and have all been in Early Years for many years.
+On arrival at pre-school the children place their belongings on their designated named pegs.
 
-Our staff are very supportive and caring and are always there for the children as well as the parents!
+The children then self-register themselves and take their water bottle into the hall and place it on their wallets. Their drinks are available all session, as needed.
 
-All staff are trained and certified in
+Breakfast starts at 08:00. We offer a variety of breakfast items including cereal toast pancakes and fruit.
 
-* Paediatric First Aid
-* Child Protection
-* Safeguarding & Senco
+The children will sit together at an adult supervised table to enjoy their breakfast.
 
-The Manager and Deputy are also Designated Child Protection Officers and Special Educational Needs Co-Ordinators.
+After breakfast they can begin their day at pre-school.
 
-Staff regularly update their qualifications.
+The children are free to play or get involved in the activity that is planned for that day.
 
-Staff and key-workers are available to talk to parents and carers at a convenient time.
+Our setting is divided into the seven areas of learning.
 
-In conjunction with Early Years Foundation Stage (EYFS) framework, staff have regular meetings with parents/carers to discuss their child's progress and development.
+1. Physical
+2. Literacy,
+3. Communication & Language
+4. Expressive Arts & Design
+5. Personal Social & Emotional
+6. Understanding the World
+7. Mathematics
 
-The staff are very enthusiastic and respect every child's individuality.
+At 10:30 the children have their snack we offer milk or water and a healthy snack
+
+Staff sit alongside the children to ensure safety at all times.
+
+After snack time the children play outside in our lovely, safe, enclosed garden.
+
+Lunch is at 12:00 and we ask the children to bring in a healthy lunch.
+
+* No chocolate products
+* No fizzy drinks
+* No sweets
+* No nuts (we are a nut-free setting)
+
+The children then enjoy further activities with song time or a story.
+
+Leaving us tired but happy!
