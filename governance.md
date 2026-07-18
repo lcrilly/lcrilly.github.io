@@ -36,10 +36,10 @@ The staff are very enthusiastic and respect every child's individuality.
 
 ## Policies
 
-* [Admissions Policy](assets/doc/Admissions%20Policy.pdf)
-* [Complaints Procedure](assets/doc/Complaints.pdf)
-* [Fees and Arrears Policy](assets/doc/Fees%20an%20Arrears.pdf)
-* [Prevent Duty & Promoting British Values Policy](assets/docs/Prevent%20Duty.docx)
-* [Safety Policy](assets/doc/Safety%20Policy.pdf)
-* [Settling-in & Transition Policy](Settling-in%20Policy.pdf)
-* [Special Education and Disability Needs Policies and Procedures](Special%20Educational%20Needs.pdf)
+* [Admissions Policy](../assets/doc/Admissions%20Policy.pdf)
+* [Complaints Procedure](../assets/doc/Complaints.pdf)
+* [Fees and Arrears Policy](../assets/doc/Fees%20an%20Arrears.pdf)
+* [Prevent Duty & Promoting British Values Policy](../assets/docs/Prevent%20Duty.docx)
+* [Safety Policy](../assets/doc/Safety%20Policy.pdf)
+* [Settling-in & Transition Policy](../Settling-in%20Policy.pdf)
+* [Special Education and Disability Needs Policies and Procedures](../Special%20Educational%20Needs.pdf)
