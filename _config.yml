@@ -26,8 +26,16 @@ description: >- # this means to ignore newlines until "baseurl:"
   the local community, we feed several local primary schools.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
-github_username:  
+lang: en-GB
+twitter_username:
+github_username:
+
+header_pages:
+  - about.md
+  - parentinfo.md
+  - community.md
+  - governance.md
+  - contact.md
 
 defaults:
   - scope:
