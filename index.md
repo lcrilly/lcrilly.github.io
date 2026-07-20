@@ -25,9 +25,9 @@ list_title: Latest News
 
 <blockquote class="pull-quote">We strive to give encouragement, teach tolerance, show fairness and enjoy friendships.</blockquote>
 
-We are a non-profit, community pre-school, with links to all local schools. We welcome children from 2 years old until they start Primary School, and typically feed into:
+We are a non-profit, community pre-school, with links to all local schools. We welcome children from 2 years old until they start Primary School.
 
-<h2 class="section-heading">Where our children go next</h2>
+<h2 class="section-heading">Our children typically move on to</h2>
 
 <div class="card-grid">
   <a class="card" href="https://www.bassingbourn.cambs.sch.uk/">
