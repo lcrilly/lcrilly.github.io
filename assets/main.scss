@@ -258,22 +258,18 @@ table {
 
 // -----------------------------------------------------------------------
 // Homepage hero + components
+//
+// The homepage is plain Markdown (kramdown IAL attaches these classes to
+// paragraphs/lists/links directly — no wrapper <div>s), so there's no
+// single hero container to box in a background/border/shadow. Centering
+// and spacing is applied per-element instead.
 // -----------------------------------------------------------------------
-.hero {
-  text-align: center;
-  background: var(--bg-alt);
-  border: 1px solid var(--border);
-  border-radius: 20px;
-  padding: $spacing-unit * 1.3 $spacing-unit;
-  margin-bottom: $spacing-unit * 1.3;
-  box-shadow: var(--shadow);
-}
-
 .hero-logo {
+  display: block;
   max-width: 420px;
   width: 100%;
   height: auto;
-  margin: 0 auto ($spacing-unit / 1.5);
+  margin: $spacing-unit auto ($spacing-unit / 1.5);
 }
 
 .logo-dark { display: none; }
@@ -284,6 +280,7 @@ table {
 }
 
 .hero-tagline {
+  text-align: center;
   font-family: var(--font-heading), $base-font-family;
   font-size: 1.4rem;
   font-weight: 700;
@@ -292,6 +289,7 @@ table {
 }
 
 .hero-lead {
+  text-align: center;
   max-width: 640px;
   margin: 0 auto ($spacing-unit / 1.2);
   font-size: 1.15rem;
@@ -300,24 +298,40 @@ table {
 }
 
 .badge-row {
+  list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
-  margin-bottom: $spacing-unit / 1.2;
-}
+  padding: 0;
+  margin: 0 auto ($spacing-unit / 1.2);
 
-.badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 8px 16px;
-  border-radius: 999px;
-  font-size: 0.9rem;
-  font-weight: 700;
-  background: rgba(40, 135, 196, 0.12);
-  color: var(--blue-text);
-  border: 1px solid rgba(40, 135, 196, 0.25);
+  li {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    background: rgba(207, 52, 130, 0.1);
+    color: var(--pink-text);
+    border: 1px solid rgba(207, 52, 130, 0.25);
+  }
+
+  // Established / Registered charity / Ofsted — colour by position
+  // since this kramdown build doesn't attach per-list-item IALs.
+  li:nth-child(2) {
+    background: rgba(40, 135, 196, 0.12);
+    color: var(--blue-text);
+    border-color: rgba(40, 135, 196, 0.25);
+  }
+
+  li:nth-child(3) {
+    background: rgba(125, 182, 52, 0.14);
+    color: var(--green-text);
+    border-color: rgba(125, 182, 52, 0.3);
+  }
 
   a {
     color: inherit;
@@ -325,29 +339,14 @@ table {
   }
 }
 
-.badge-ofsted {
-  background: rgba(125, 182, 52, 0.14);
-  color: var(--green-text);
-  border-color: rgba(125, 182, 52, 0.3);
-}
-
-.badge-charity {
-  background: rgba(40, 135, 196, 0.12);
-  color: var(--blue-text);
-  border-color: rgba(40, 135, 196, 0.25);
-}
-
-.badge-est {
-  background: rgba(207, 52, 130, 0.1);
-  color: var(--pink-text);
-  border-color: rgba(207, 52, 130, 0.25);
-}
-
 .cta-row {
+  list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 14px;
+  padding: 0;
+  margin: 0 auto $spacing-unit;
 }
 
 .btn {
@@ -412,9 +411,11 @@ table {
 }
 
 .card-grid {
+  list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 18px;
+  padding: 0;
   margin-bottom: $spacing-unit * 1.3;
 }
 
@@ -432,41 +433,28 @@ table {
   box-shadow: var(--shadow);
   text-decoration: none !important;
   color: var(--text) !important;
+  font-family: var(--font-heading), $base-font-family;
+  font-weight: 700;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 
   &:hover {
     transform: translateY(-3px);
   }
 
-  .card-logo-wrap {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  img {
     width: 84px;
     height: 84px;
-    padding: 10px;
+    object-fit: contain;
     background: #ffffff;
     border-radius: 14px;
+    padding: 10px;
     box-shadow: inset 0 0 0 1px var(--border);
-  }
-
-  .card-logo {
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
-    object-fit: contain;
-  }
-
-  .card-title {
-    font-family: var(--font-heading), $base-font-family;
-    font-weight: 700;
   }
 }
 
-.card-grid .card:nth-child(3n+1) { border-top-color: var(--blue); }
-.card-grid .card:nth-child(3n+2) { border-top-color: var(--pink); }
-.card-grid .card:nth-child(3n+3) { border-top-color: var(--green); }
+.card-grid li:nth-child(3n+1) .card { border-top-color: var(--blue); }
+.card-grid li:nth-child(3n+2) .card { border-top-color: var(--pink); }
+.card-grid li:nth-child(3n+3) .card { border-top-color: var(--green); }
 
 .home .rss-subscribe {
   text-align: center;
