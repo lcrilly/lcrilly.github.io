@@ -19,6 +19,7 @@ Start a development container with Docker or Apple Container with [container-com
 docker compose up --build -d # Docker
 container-compose up --build -d # Apple Container
 ```
+Common Ruby/Bundler problems are often solved by deleting `Gemfile.lock`.
 
 ### License
 
