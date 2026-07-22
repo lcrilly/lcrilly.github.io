@@ -17,12 +17,29 @@ layout: page
     font-family: var(--font-heading);
     color: var(--pink);
   }
+  .container img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 20px;
+  }
+  .container img.dark {
+    display: none;
+  }
+  @media (prefers-color-scheme: dark) {
+    .container img.light {
+      display: none;
+    }
+    .container img.dark {
+      display: inline-block;
+    }
+  }
 </style>
 
 <div class="container">
-  <h1>404</h1>
+  <h1>Not found</h1>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <img class="light" src="{{ "/assets/img/404_dark.png" | relative_url }}" alt="Page not found" width="1500" height="440">
+  <img class="dark" src="{{ "/assets/img/404_light.png" | relative_url }}" alt="Page not found" width="1500" height="440">
+
   <p><a class="btn btn-primary" href="{{ "/" | relative_url }}">Back to homepage</a></p>
 </div>
