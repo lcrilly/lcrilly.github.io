@@ -6,7 +6,7 @@ category: news
 ---
 ## We are extending our hours by offering a **breakfast club**!
 
-Our felible hours are now 8am - 2:30pm
+Our flexible hours are now 8am - 2:30pm
 
 To help you, we are offering _money saving Monday!_
 
