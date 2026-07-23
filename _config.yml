@@ -32,8 +32,9 @@ github_username:
 
 header_pages:
   - about.md
-  - parentinfo.md
   - community.md
+  - gallery.md
+  - parentinfo.md
   - governance.md
   - contact.md
 
