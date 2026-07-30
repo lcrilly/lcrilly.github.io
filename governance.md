@@ -41,6 +41,7 @@ The staff are very enthusiastic and respect every child's individuality.
 * [Fees and Arrears Policy](../assets/doc/Fees%20and%20Arrears.pdf)
 * [Illness and Injury Policy](../assets/doc/Illness%20and%20Injury%20Policy.pdf)
 * [Prevent Duty & Promoting British Values Policy](../assets/doc/Prevent%20Duty.pdf)
+* [Safeguarding Policy](../assets/doc/Safeguarding%20Policy.pdf)
 * [Safety Policy](../assets/doc/Safety%20Policy.pdf)
 * [Settling-in & Transition Policy](../assets/doc/Settling-in%20Policy.pdf)
 * [Special Education and Disability Needs Policies and Procedures](../assets/doc/Special%20Educational%20Needs.pdf)
