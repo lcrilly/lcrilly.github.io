@@ -36,13 +36,14 @@ The staff are very enthusiastic and respect every child's individuality.
 
 ## Policies
 
-* [Admissions Policy](../assets/doc/Admissions%20Policy.pdf)
-* [Complaints Procedure](../assets/doc/Complaints.pdf)
-* [Fees and Arrears Policy](../assets/doc/Fees%20and%20Arrears.pdf)
-* [Illness and Injury Policy](../assets/doc/Illness%20and%20Injury%20Policy.pdf)
-* [Prevent Duty & Promoting British Values Policy](../assets/doc/Prevent%20Duty.pdf)
-* [Safeguarding Policy](../assets/doc/Safeguarding%20Policy.pdf)
-* [Safety Policy](../assets/doc/Safety%20Policy.pdf)
-* [Settling-in & Transition Policy](../assets/doc/Settling-in%20Policy.pdf)
-* [Special Education and Disability Needs Policies and Procedures](../assets/doc/Special%20Educational%20Needs.pdf)
-* [Whistleblowing Policy](../assets/doc/Whistle%20blowing%20policy.pdf)
+{% comment %}
+  Auto-generated from assets/doc so new policy PDFs need no manual edit here.
+  sort_natural gives case-insensitive alphabetical order (plain `sort` is case-sensitive).
+  `basename` is the filename without extension, used as-is for the visible link text.
+  `uri_escape` is applied only to the href, so spaces in the filename become %20 in the
+  URL but still render as spaces in the link text.
+{% endcomment %}
+{% assign policy_docs = site.static_files | where_exp: "f", "f.path contains '/assets/doc/'" | where_exp: "f", "f.extname == '.pdf'" | sort_natural: "name" %}
+{% for doc in policy_docs %}
+* [{{ doc.basename }}]({{ doc.path | relative_url | uri_escape }})
+{%- endfor %}
