@@ -457,6 +457,43 @@ table {
 .card-grid li:nth-child(3n+2) .card { border-top-color: var(--pink); }
 .card-grid li:nth-child(3n+3) .card { border-top-color: var(--green); }
 
+.testimonial-section {
+  text-align: center;
+  margin: ($spacing-unit * 1.3) 0;
+}
+
+.testimonial-list {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.testimonial-quote {
+  display: none;
+  text-align: center;
+  max-width: none;
+  border: 0;
+  border-top: 4px solid var(--pink);
+  border-bottom: 4px solid var(--pink);
+  border-radius: 0;
+  background: none;
+  padding: ($spacing-unit / 1.5) $spacing-unit;
+  margin: 0;
+
+  &.is-active {
+    display: block;
+  }
+
+  p {
+    font-family: var(--font-heading), $base-font-family;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--text);
+    margin: 0;
+    line-height: 1.5;
+  }
+}
+
 .home .rss-subscribe {
   text-align: center;
   color: var(--text-muted);

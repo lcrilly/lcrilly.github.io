@@ -1,0 +1,22 @@
+<section class="testimonial-section">
+  <h2 class="section-heading">What families say</h2>
+  <div class="testimonial-list" id="testimonial-list">
+    {%- for item in site.data.testimonials -%}
+    <blockquote class="testimonial-quote{% if forloop.first %} is-active{% endif %}" data-testimonial>
+      <p>&ldquo;{{ item.quote }}&rdquo;</p>
+    </blockquote>
+    {%- endfor -%}
+  </div>
+  <script>
+    (function () {
+      var list = document.getElementById('testimonial-list');
+      if (!list) return;
+      var items = list.querySelectorAll('[data-testimonial]');
+      if (items.length < 2) return;
+      var current = list.querySelector('.is-active');
+      var choice = items[Math.floor(Math.random() * items.length)];
+      if (current && current !== choice) current.classList.remove('is-active');
+      choice.classList.add('is-active');
+    })();
+  </script>
+</section>

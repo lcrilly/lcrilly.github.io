@@ -34,6 +34,8 @@ We are a non-profit, community pre-school, with links to all local schools. We w
 - [![]({{ '/assets/img/steeplemorden.png' | relative_url }}) Steeple Morden Church of England Primary School](https://www.steeplemorden.cambs.sch.uk/){: .card}
 {: .card-grid}
 
+{% include testimonial.html %}
+
 # Upcoming events
 
 | | [Click here for term dates]({% link parentinfo.md %}) |
