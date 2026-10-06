@@ -33,3 +33,14 @@ We are a non-profit, community pre-school, with links to all local schools. We w
 - [![]({{ '/assets/img/tannerydrift.png' | relative_url }}) Royston Tannery Drift First School](https://www.tannerydrift.herts.sch.uk/){: .card}
 - [![]({{ '/assets/img/steeplemorden.png' | relative_url }}) Steeple Morden Church of England Primary School](https://www.steeplemorden.cambs.sch.uk/){: .card}
 {: .card-grid}
+
+# Upcoming events
+
+| | [Click here for term dates]({% link parentinfo.md %}) |
+|-|-|
+| 22/10/2026 | Harvest Coffee Morning 9 - 10 |
+| 13/11/2026 | Pamper Evening |
+| 14/11/2026 | Winter Fayre |
+| 29/11/2026 | Wreath making |
+| 17/12/2026 | Xmas song morning & Party |
+

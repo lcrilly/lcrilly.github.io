@@ -37,4 +37,18 @@ Fees can be paid weekly, monthly or half-termly (unless otherwise arranged), pai
 
 Fees are £5.75 per hour per child.
 
-We also ask for a **voluntary contribution** of £5.00 per half term as a contribution towards healthy snacks and hygiene essentials (e.g. wipes).
+We also ask for a **voluntary contribution** of £5.00 per half term as a contribution towards healthy snacks and hygiene essentials (e.g. tissues).
+
+## Kit List
+
+The following items are essential to help us operate all year round. Each item must have a name tag or label.
+
+* Change of clothes (several)
+* Coat
+* Drinking bottle
+* Indoor shoes and outdoor shoes (wellies when wet)
+* Lunch box
+* Nappies, wipes & nappy sacks
+* Sun cream
+* Sun hat
+* Winter hat & gloves
